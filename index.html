@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> 
+
+    
+
+    
+    
+<body>
+    <div class="slideshow-container">
+      <div class="black"></div>
+      <header class="header-top" id="head">
+
+        <div ><img src="logo-02.png" alt="" class="logo" style="cursor: pointer;"></div>
+        <img src="logo-3-02.png" alt="" style="display: none; cursor: pointer;" class="logo-black">
+        <div class="menu">
+          
+          <ul style="padding: 8px 8px; margin: 0px 0px; color:rgb(255, 121, 0);">Home</ul>
+          <div class="dropdown">
+            <div style="display: flex; gap: 2px; align-items: center; text-align: center;">
+              <ul class="dropbtn" style="padding: 8px 0px 8px 8px; margin: 0px 0px;">Services</ul>
+              <div class="dropbtn" style="margin-bottom: 6px; ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16 " style="transform: rotate(180deg);">
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .354.146l4 4a.5.5 0 1 1-.708.708L8 2.707 4.354 5.854a.5.5 0 1 1-.708-.708l4-4A.5.5 0 0 1 8 1z"/>
+              </svg>
+            </div>
+              
+            </div>
+            <div class="dropdown-content">
+              <a href="#">Safety and Secure </a>
+              <a href="#">Material things</a>
+              <a href="#">Proper Timing</a>
+              <a href="#">Excellent labours </a>
+
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <div style="display: flex; gap: 2px; align-items: center; text-align: center;">
+              <ul class="dropbtn" style="padding: 8px 0px 8px 8px; margin: 0px 0px;">Strength</ul>
+              <div class="dropbtn" style="margin-bottom: 6px; ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16 " style="transform: rotate(180deg);">
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .354.146l4 4a.5.5 0 1 1-.708.708L8 2.707 4.354 5.854a.5.5 0 1 1-.708-.708l4-4A.5.5 0 0 1 8 1z"/>
+              </svg>
+            </div>
+              
+            </div>
+            <div class="dropdown-content" style="min-width: 180px;">
+              <a href="#">Management</a>
+              <a href="#">Team work</a>
+              <a href="#">Ability foundation</a>
+              <!-- <a href="#">Excellent labours </a> -->
+
+            </div>
+          </div>
+          <ul style="padding: 8px 8px; margin: 0px 0px;" class="dropbtn">Our branch</ul>
+          <ul style="padding: 8px 8px; margin: 0px 0px;" class="dropbtn">About us</ul>
+          <div style="border: solid rgba(255, 255, 255, 0.577) 0.5px; height: 20px;" class="border-color"></div>
+
+          <div id="searchBar" class="search-white"><svg width="18" height="18" viewBox="0 0 14 14" fill="none"  xmlns="http://www.w3.org/2000/svg">
+            <path d="M13 13L10.1047 10.1047M10.1047 10.1047C10.6 9.60945 10.9928 9.0215 11.2608 8.37442C11.5289 7.72734 11.6668 7.0338 11.6668 6.33341C11.6668 5.63302 11.5289 4.93948 11.2608 4.2924C10.9928 3.64532 10.6 3.05737 10.1047 2.56212C9.60945 2.06687 9.0215 1.67401 8.37442 1.40598C7.72734 1.13795 7.0338 1 6.33341 1C5.63302 1 4.93948 1.13795 4.2924 1.40598C3.64532 1.67401 3.05737 2.06687 2.56212 2.56212C1.56191 3.56233 1 4.9189 1 6.33341C1 7.74792 1.56191 9.10449 2.56212 10.1047C3.56233 11.1049 4.9189 11.6668 6.33341 11.6668C7.74792 11.6668 9.10449 11.1049 10.1047 10.1047Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></div>
+
+
+
+      </div>
+
+      <div class="menu-icon">
+        <div id="searchBar" class="search-white"><svg width="22" height="22" viewBox="0 0 14 14" fill="none"  xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 13L10.1047 10.1047M10.1047 10.1047C10.6 9.60945 10.9928 9.0215 11.2608 8.37442C11.5289 7.72734 11.6668 7.0338 11.6668 6.33341C11.6668 5.63302 11.5289 4.93948 11.2608 4.2924C10.9928 3.64532 10.6 3.05737 10.1047 2.56212C9.60945 2.06687 9.0215 1.67401 8.37442 1.40598C7.72734 1.13795 7.0338 1 6.33341 1C5.63302 1 4.93948 1.13795 4.2924 1.40598C3.64532 1.67401 3.05737 2.06687 2.56212 2.56212C1.56191 3.56233 1 4.9189 1 6.33341C1 7.74792 1.56191 9.10449 2.56212 10.1047C3.56233 11.1049 4.9189 11.6668 6.33341 11.6668C7.74792 11.6668 9.10449 11.1049 10.1047 10.1047Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg></div>
+
+          <div class="nav">
+            <div class="logo-menu" id="menuBar">
+              <label for="check">
+                <input type="checkbox" id="check"/> 
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            <div class="main-nav">
+              <a class="hamburger-nav"></a>
+              <ul class="menu-bar">
+                <a href="#home"><li><i class="fa fa-home"></i> Home</li></a>
+                <a href="#portfolio"><li><i class="fa fa-file-image-o"></i> Services</li></a>
+                <a href="#about"><li><i class="fa fa-user"></i> Strength</li></a>
+                <a href="#contact"><li><i class="fa fa-envelope"></i> Our branch</li></a>
+                <a href="#setting"><li><i class="fa fa-cogs"></i>About Us</li></a>
+              </ul>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+          </div>
+      </div>
+      </header>
+
+
+
+
+
+
+      
+
+
+
+
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">1 / 3</div> -->
+          <img src="Slide - 1.jpg" class="img">
+          <div class="text">
+            <h1 class="head">Upfront transport and logistics around the world</h1>
+            <p class="para">We specialize in providing end-to-end transportation and logistics services across the globe whether it's cargo transport, supply chain management, or freight solutions</p>
+            <button class="btn">Inquiry Now</button>
+        </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">2 / 3</div> -->
+          <img src="jumbo-jet-flying-sky.jpg" class="img">
+          <div class="text">
+            <h1 class="head">Provide real time tracking tools for vessel arrivals</h1>
+            <p class="para">We provide advanced Real-Time Vessel Tracking tools to ensure transparency, efficiency, and smooth port operations movements effortlessly.</p>
+            <button class="btn">Inquiry Now</button>
+        </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">3 / 3</div> -->
+          <img src="slide - 3.jpg" class="img">
+          <div class="text">
+            <h1 class="head">Committed to the highest safety standards</h1>
+            <p class="para">We provide advanced Real-Time Vessel Tracking tools to ensure transparency, efficiency, and smooth port operations movements effortlessly.</p>
+            <button class="btn">Inquiry Now</button>
+        </div>
+        </div>
+          <div class="prev" onclick="plusSlides(-1)" ><img src="arrow-prev.svg" alt="" class="banner-arrow"></div>
+          <div class="next" onclick="plusSlides(1)"><img src="arrow-next.svg" alt="" class="banner-arrow"></div>
+        </div>
+        <br>
+        
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+
+          <div class="search-flex">
+            <div class="search-bg"></div>
+            <img src="logo-3-02.png" alt="" style="position: absolute; left: 122px; width: 200px; top: 20px;">
+            <input type="text" placeholder="Search here..." class="search">
+            <img src="close.svg" alt="" class="search-close" id="closeIcon">
+          </div>
+      
+
+        <div class="slider">
+        <div class="slide-track" >
+          <div class="slide"><img  src="cln1.png" alt=""></div>
+          <div class="slide"><img  src="cln2.png" alt=""></div>
+          <div class="slide"><img  src="cln3.png" alt=""></div>
+          <div class="slide"><img  src="cln4.png" alt=""></div>
+          <div class="slide"><img  src="cln5.png" alt=""></div>
+          <div class="slide"><img  src="cln6.png" alt=""></div>
+          <div class="slide"><img  src="cln7.png" alt=""></div>
+
+          <div class="slide"><img  src="cln1.png" alt=""></div>
+          <div class="slide"><img  src="cln2.png" alt=""></div>
+          <div class="slide"><img  src="cln3.png" alt=""></div>
+          <div class="slide"><img  src="cln4.png" alt=""></div>
+          <div class="slide"><img  src="cln5.png" alt=""></div>
+          <div class="slide"><img  src="cln6.png" alt=""></div>
+          <div class="slide"><img  src="cln7.png" alt=""></div>
+          
+
+    
+
+        </div>
+      </div>
+  
+        <!-- container - 2 -->
+        <!-- <div style="width: 100%; height: 450px; background-color: #F7F7F7;"> -->
+          
+          <div class="cont-2-flex">
+            
+          <h1 class="cont-head-2">Worldwide transportation service</h1>
+          <div class="cards-2">
+          <div class="card-1" >
+            <img src="Truck.svg" alt="" class="icon-3">
+            <h1 class="cont-2-head">Road Transport</h1>
+            <p class="cont-2-para">Guidance in packaging, shape, and formulation</p>
+          </div>
+          <div class="border-2"></div>
+
+          <div class="card-1" >
+            <img src="Ship.svg" alt="" class="icon-3">
+            <h1 class="cont-2-head">Ship Transport</h1>
+            <p class="cont-2-para">Products for both new and established companies</p>
+          </div>
+          <div class="border-2"></div>
+          
+
+          <div class="card-1" >
+            <img src="Train.svg" alt="" class="icon-3">
+            <h1 class="cont-2-head">Train Transport</h1>
+            <p class="cont-2-para">Products that make you want to repeat purchase</p>
+          </div>
+          <div class="border-2"></div>
+
+          <div class="card-1" >
+            <img src="Airplane.svg" alt="" class="icon-3">
+            <h1 class="cont-2-head">Airplane Transport</h1>
+            <p class="cont-2-para">Our original cosmetic and supplement brands</p>
+          </div>
+        </div>
+        </div>
+
+        <!-- </div> -->
+
+
+         <!-- container-3 -->
+
+
+        <div class="container-3">
+          <div class="cont-3-flex">
+            <img src="ASTV images.svg" alt="" class="main-img-3">
+            <div class="content-width">
+              <h1 class="cont-3-head">See our transportation facility management</h1>
+              <p class="cont-3-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+              <p style="color: #5e5e5ed5; margin: 6px 0px; font-size: 13px;"><span><img src="Tick.svg" alt="" style="margin-right: 6px;"></span>Efficient management of freight transportation</p>
+              <p style="color: #5e5e5ed5; margin: 6px 0px; font-size: 13px;"><span><img src="Tick.svg" alt="" style="margin-right: 6px;"></span>Specialized transport options for fragile perishable</p>
+              <p style="color: #5e5e5ed5; margin: 6px 0px; font-size: 13px;"><span><img src="Tick.svg" alt="" style="margin-right: 6px;"></span>Real-time tracking of shipments with updates</p>
+              <button class="btn-3">Read more</button>
+
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- container-4 -->
+
+        <div style="width: 100%; height: 90%;"> 
+          
+            <img src="Ship banner.svg" alt="" class="cont-position-1">
+             <!-- <video src="Ship.mp4" autoplay loop muted class="cont-position-1"></video> -->
+            
+
+        
+
+        <div class="swiper mySwiper line-height">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-1-content">
+              <h1 class="cont-4-head">The Great Innovators</h1>
+              <p class="cont-4-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+               </div>
+             </div>
+            <div class="swiper-slide">
+              <div class="slide-1-content">
+                <h1 class="cont-4-head">The Story of Civilization</h1>
+                <p class="cont-4-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                 </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-1-content">
+                <h1 class="cont-4-head">Worldwide transportation</h1>
+                <p class="cont-4-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                 </div>
+            </div>
+          </div>
+          <div class="display">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+
+      <!-- container-5 -->
+      <section class="container-5">
+
+        <div style="text-align: center; padding-top: 80px;">
+          <!-- <h3 style="color: #383838; font-size: 18px; font-weight: 100; margin-bottom: 0px; margin-top: 0px;">Who we are</h3> -->
+          <h1 class="head-content-5">Delivering world class service</h1>
+        </div>
+        <div class="container ">
+         <div class="card">
+            <div class="content">
+              <div class="imgBx">
+                <img src="img-1.jpg">
+                
+              </div>
+              <div class="contentBx">
+                <h3>Warehouse<br><span>Port hub</span></h3>
+              </div>
+            </div>
+            <div class="black-hover"></div>
+            <ul class="sci">
+              <li>
+                <h1 class="cont-5-head">Biggest Warehouse Support</h1>
+              </li>
+              <li>
+                <P class="cont-5-para">Mauris id enim id purus ornare tincidunt. Aenean vel consequat risus. Proin viverra nisi at nisl imperdiet auctor.</P>
+              </li>
+              <li class="icon">
+                <img src="arrow-1.svg" alt="">
+              </li>
+            </ul>
+            
+          </div>
+          <div class="card">
+            <div class="content">
+              <div class="imgBx">
+                <img src="img-2.jpg">
+              </div>
+              <div class="contentBx">
+                <h3>Goods contain<br><span>Port hub</span></h3>
+              </div>
+            </div>
+            <div class="black-hover"></div>
+            <ul class="sci">
+              <li>
+                <h1 class="cont-5-head">Goods Contain In Safe Place</h1>
+              </li>
+              <li>
+                <P class="cont-5-para">Mauris id enim id purus ornare tincidunt. Aenean vel consequat risus. Proin viverra nisi at nisl imperdiet auctor.</P>
+              </li>
+              <li class="icon">
+                <img src="arrow-1.svg" alt="">
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="content">
+              <div class="imgBx">
+                <img src="img-3.jpg">
+              </div>
+              <div class="contentBx">
+                <h3>Transport<br><span>Port hub</span></h3>
+              </div>
+            </div>
+            <div class="black-hover"></div>
+            <ul class="sci">
+              <li>
+                <h1 class="cont-5-head">Most Popular Transport & Logistics</h1>
+              </li>
+              <li>
+                <P class="cont-5-para">Mauris id enim id purus ornare tincidunt. Aenean vel consequat risus. Proin viverra nisi at nisl imperdiet auctor.</P>
+              </li>
+              <li class="icon">
+                <img src="arrow-1.svg" alt="">
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="imgBx">
+                <img src="img-4.jpg">
+              </div>
+              <div class="contentBx">
+                <h3>Logistics<br><span>Port hub</span></h3>
+              </div>
+            </div>
+            <div class="black-hover"></div>
+            <ul class="sci">
+              <li>
+                <h1 class="cont-5-head">Road Transport & Logistics</h1>
+              </li>
+              <li>
+                <P class="cont-5-para">Mauris id enim id purus ornare tincidunt. Aenean vel consequat risus. Proin viverra nisi at nisl imperdiet auctor.</P>
+              </li>
+              <li class="icon">
+                <img src="arrow-1.svg" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="container-6">
+        <div class="flex-6">
+          <div style="color: white;" class="content-6">
+            <h1 class="head-cont-6">Special Services</h1>
+            <p class="para-cont-6">Globally known for our ability to handle every last detail of our customers' particular logistics and forwarding needs, TransCargo's Special Services team takes care of all your logistics.</p>
+            <div class="arrow-6">
+              <img src="arrow-prev.svg" alt="" class="swiper-slide-button button-prev" style="width: 45px;">
+              <img src="arrow-next.svg" alt="" class="swiper-slide-button button-next" style="width: 45px;">
+            </div>
+          </div>
+      <div class="card-6"> 
+        <div class="swiperSix" style="margin-right: -40px;">
+          <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper width-size" >
+              <div class="card-item swiper-slide">
+                <img src="slide - 3.jpg" alt="User Image" class="user-image">
+                <h2 class="head-6">Car Transportation</h2>
+                <p class="para-6">Provides a scalable and customizable solution for customers who have programs to retire.</p>
+                <div class="readmore-flex">
+                  <button class="readmore-button">read more</button>
+                  <img src="arrow-read more.svg" alt="" style="width: 15px;" class="read-arrow">
+                </div>
+              </div>
+              <div class="card-item swiper-slide ">
+                <div><img src="Tarin.jpg" alt="User Image" class="user-image"></div>
+                <h2 class="head-6">Multimodal Transport</h2>
+                <p class="para-6">Combined rail road transport is particularly well suited to the shipping of hazardous goods.</p>
+                <div class="readmore-flex">
+                  <button class="readmore-button">read more</button>
+                  <img src="arrow-read more.svg" alt="" style="width: 15px;" class="read-arrow">
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="turk.jpg" alt="User Image" class="user-image">
+                <h2 class="head-6">Road Freight</h2>
+                <p class="para-6">To best support your ever-changing logistics needs, we are continuously evolving our transportation.</p>
+                <div class="readmore-flex">
+                  <button class="readmore-button">read more</button>
+                  <img src="arrow-read more.svg" alt="" style="width: 15px;" class="read-arrow">
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="sea.jpg" alt="User Image" class="user-image">
+                <h2 class="head-6">Sea Freight</h2>
+                <p class="para-6">Sea-Air cargo is the last to be loaded and the first to be unloaded, reducing transshipment times.</p>
+                <div class="readmore-flex">
+                  <button class="readmore-button">read more</button>
+                  <img src="arrow-read more.svg" alt="" style="width: 15px;" class="read-arrow">
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="Air.jpg" alt="User Image" class="user-image">
+                <h2 class="head-6">Air Freight</h2>
+                <p class="para-6">Our AIRFAST services have been designed for customers who need their goods delivered urgently.</p>
+                <div class="readmore-flex">
+                  <button class="readmore-button">read more</button>
+                  <img src="arrow-read more.svg" alt="" style="width: 15px;" class="read-arrow">
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="Storage.jpg" alt="User Image" class="user-image">
+                <h2 class="head-6">Packaging Storage</h2>
+                <p class="para-6">You can opt for dedicated platforms from the advantages related to shared surfaces, resources.</p>
+                <div class="readmore-flex">
+                  <button class="readmore-button">read more</button>
+                  <img src="arrow-read more.svg" alt="" style="width: 15px;" class="read-arrow">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- <div style="margin-left: 10px;" class="swiper-slide-button swiper-button-prev"></div>
+            <div style="margin-right: 10px;" class="swiper-slide-button swiper-button-next"></div> -->
+          </div>
+        </div>
+
+        <!-- Linking SwiperJS script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
+
+
+      
+        
+
+      </div>
+    </div>
+    </div>
+
+
+    <section class="container-7">
+      <div class="accordion-7">
+        <div class="content-7">
+          <h3 class="inline-head">Frequently Asked Questions</h3>
+          <h1 class="cont-head-7">Everything You Need to Know About Logistic Transportation.</h1>
+        </div>
+
+        <div style="width: 700px;">
+      <button class="accordion">What types of transportation services do you offer?</button>
+    <div class="panel">
+      <p>Yes, we provide sustainable logistics solutions, including eco-friendly vehicles and practices to minimize environmental impact.</p>
+    </div>
+
+    <button class="accordion">How can I track my shipment?</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">Do you offer eco-friendly transportation options? </button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">What is the typical delivery time?</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">How do I request a quote?</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">Are there any restrictions on what can be shipped?</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">How do you ensure the security of my shipment?</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  </div>
+
+    </section>
+
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+
+      <div class="flex-footer">
+        <div>
+      <img src="logo-02.png" alt="" class="footer-logo">
+      <p class="footer-para">Experience Seamless and Reliable Logistics Solutions for Global Transportation Needs.</p>
+
+      <div class="footer-icons">
+         <img src="FB.svg" alt="" class="socialmedia">
+         <img src="Insta.svg" alt="" class="socialmedia">
+         <img src="Twitter.svg" alt="" class="socialmedia">
+         <img src="Linkedin.svg" alt="" class="socialmedia">
+       </div>
+    </div>
+
+    <div class="footer-menu-1">
+      <ul style="font-size: 16px; font-weight: bolder; padding: 0px; color: rgba(255, 255, 255, 0.612);">Usefull link</ul>
+      <ul class="footer-content">Home</ul>
+      <ul class="footer-content">About us</ul>
+      <ul class="footer-content">Services</ul>
+      <ul class="footer-content">Project</ul>
+      <ul class="footer-content">Contact</ul>
+    </div>
+
+    <div class="footer-menu-2">
+      <ul style="font-size: 16px; font-weight: bolder; padding: 0px; color: rgba(255, 255, 255, 0.612);">Services</ul>
+      <ul class="footer-content">Airfreight</ul>
+      <ul class="footer-content">Ocean Freight</ul>
+      <ul class="footer-content">Breakbulk & Project Cargo</ul>
+      <ul class="footer-content">Road Transport</ul>
+      <ul class="footer-content">Express Transport</ul>
+      <ul class="footer-content">Rail Transport</ul>
+      <ul class="footer-content">Storage & Warehousing</ul>
+    </div>
+
+    <div style="color: rgba(255, 255, 255, 0.612);">
+      <ul style="font-size: 16px; font-weight: bolder; padding: 0px; color: rgba(255, 255, 255, 0.612);">Address</ul>
+      <div style="display: flex; gap: 10px; align-items: start; margin-top: 12px;">
+        <img src="Location.svg" alt="" style="width: 18px;">
+        <p class="adress">31 St Martin's Ln,London WC2N 4DD, United Kingdom</p>
+      </div>
+
+      <div style="display: flex; gap: 10px; margin-top: 12px;" >
+        <img src="mail.svg" alt="" style="width: 18px;">
+        <p class="adress">info@porthub.com</p>
+      </div>
+
+      <div style="display: flex; gap: 10px; align-items: start; margin-top: 12px;">
+        <img src="call.svg" alt="" style="width: 18px;">
+        <p class="adress">+44 20 8980 9731</p>
+      </div>
+
+      <div style="display: flex; gap: 10px; margin-top: 12px;" >
+        <img src="timing.svg" alt="" style="width: 18px; ">
+        <p class="adress">Mon - Fri 8:30 - 17:30 Sat - Sun off</p>
+      </div>
+
+    </div>
+    </div>
+
+    <div class="footer-bottom">
+    <div class="policy-flex">
+      <ul style="padding: 0px 0px; margin: 0px; cursor: pointer;">Privacy policy</ul>
+      <div class="border-footer"></div>
+      <ul style="padding: 0px 0px; margin: 0px; cursor: pointer;">Cookie policy</ul>
+      <div class="border-footer"></div>
+      <ul style="padding: 0px 0px; margin: 0px; cursor: pointer;">Terms of use</ul>
+      <div class="border-footer"></div>
+      <ul style="padding: 0px 0px; margin: 0px; cursor: pointer;">Site map</ul>
+    </div>
+
+    <div>
+      <p style="font-size: 13px; color: rgba(255, 255, 255, 0.612);">© 2024, Logistify Transportation. All Rights Reserved.</p>
+    </div>
+
+  </div>
+
+    </footer>
+
+      
+
+
+
+      
+        
+        <div class="scroll" id="icon"><img src="arrow-2.svg" alt="" style="cursor: pointer;"></div>
+        <script src="app.js"></script>
+      
+    
+</body>
+</html>
