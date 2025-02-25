@@ -70,7 +70,7 @@ document.querySelector('.swiper-pagination').style = 'color: #383838;';
 
 let scroll = document.querySelector('#icon')
 window.addEventListener('scroll', ()=>{
-  if(window.scrollY > 600){
+  if(window.scrollY > 500){
     scroll.classList.add('show')
   }
 
@@ -266,5 +266,6 @@ for (let i = 0; i < acc.length; i++) {
       }
     });
   });
+
 
 
